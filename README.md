@@ -2,7 +2,7 @@
 A Tensorflow implementation of DeepMind's Symbol-Concept Association Network ([SCAN: Learning Abstract Hierarchical Compositional Visual Concepts](https://arxiv.org/abs/1707.03389)).
 
 <div align="center">
-	<img src="assests/SCAN-model.png?raw=true" alt="SCAN model architecture"/>
+	<img src="https://github.com/naturomics/SCAN-tensorflow/blob/master/assests/SCAN-model.png?raw=true" alt="SCAN model architecture"/>
 </div>
 
 # Usage
