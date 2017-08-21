@@ -12,14 +12,14 @@ A Tensorflow implementation of DeepMind's Symbol-Concept Association Network ([S
 * [Tensorflow 1.2](https://github.com/tensorflow/tensorflow/tree/r1.2)
 
 ## Instructions for runing
-'''shell
+```shell
 $ git clone https://github.com/naturomics/SCAN-tensorflow.git
 $ cd SCAN-tensorflow
-'''
+```
 
-'''shell
+```shell
 $ python main.py
-'''
+```
 
 
 # Contributing
