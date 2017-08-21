@@ -1,9 +1,9 @@
 # SCAN in Tensorflow
 A Tensorflow implementation of DeepMind's Symbol-Concept Association Network ([SCAN: Learning Abstract Hierarchical Compositional Visual Concepts](https://arxiv.org/abs/1707.03389)).
 
-<div align="center">
+<p align="center">
 	<img src="https://github.com/naturomics/SCAN-tensorflow/blob/master/assests/SCAN-model.png?raw=true" alt="SCAN model architecture"/>
-</div>
+</p>
 
 # Usage
 
