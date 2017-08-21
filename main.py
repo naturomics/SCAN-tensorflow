@@ -19,7 +19,7 @@ def main(_):
             scan.train()
             logging.info("train finished.")
         else:
-            scan.predict()
+            scan.inference()
 
 
 if __name__ == "__main__":
