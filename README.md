@@ -7,12 +7,14 @@ A Tensorflow implementation of DeepMind's Symbol-Concept Association Network ([S
 
 ## Prerequisites
 
--[Python 3.4]
--[Tensorflow 1.2](https://github.com/tensorflow/tensorflow/tree/r1.2)
+* Python 3.4
+* [Tensorflow 1.2](https://github.com/tensorflow/tensorflow/tree/r1.2)
 
+# Contributing
+Contributions are always welcome! Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 # Author
 Naturomics Liao - [@naturomics](https://github.com/naturomics)
 
 # LICENSE
-MIT
+Please see [License File](LICENSE.md) for more information.
