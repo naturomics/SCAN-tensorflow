@@ -8,6 +8,7 @@ A Tensorflow implementation of DeepMind's Symbol-Concept Association Network ([S
 ## Prerequisites
 
 * Python 3.4
+* [DeepMind Lab](https://github.com/deepmind/lab)
 * [Tensorflow 1.2](https://github.com/tensorflow/tensorflow/tree/r1.2)
 
 # Contributing
