@@ -27,7 +27,7 @@ class SCAN(object):
         with tf.variable_scope("beta_VAE"):
             img_q_mu, img_q_sigma = self.img_encoder(img)
             img_z = distributions.Normal(img_q_mu, img_q_sigma)
-            img_gen = self.img_decoder(img_z)
+            img_gen = self.img_decoder(img_z.sample(self.cfg.batch_size))
 
             img_reconstruct_error = tf.reduce_mean(img_gen)
 
@@ -47,13 +47,14 @@ class SCAN(object):
         with tf.variable_scope("SCAN"):
             sym_q_mu, sym_q_sigma = self.sym_encoder(sym)
             sym_z = distributions.Normal(sym_q_mu, sym_q_sigma)
-            self.sym_decoder(sym_z)
+            self.sym_decoder(sym_z.sample(self.cfg.batch_size))
 
             sym_reconstruct_error = tf.reduce_mean()
 
             sym_z_prior = distributions.Normal()
             beta_KL_divergence = kl_divergence(sym_z, sym_z_prior)
             beta_KL_divergence = self.cfg.beta_scan * beta_KL_divergence
+
             lambda_KL_divergence = kl_divergence(img_z, sym_z)
 
             loss = sym_reconstruct_error - beta_KL_divergence
