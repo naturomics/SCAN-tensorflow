@@ -31,4 +31,4 @@ Contributions are always welcome! Please see [CONTRIBUTING](CONTRIBUTING.md) for
 Naturomics Liao - [@naturomics](https://github.com/naturomics)
 
 # LICENSE
-Please see [License File](LICENSE.md) for more information.
+Please see [License File](LICENSE) for more information.
