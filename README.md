@@ -12,6 +12,7 @@ A Tensorflow implementation of DeepMind's Symbol-Concept Association Network ([S
 * Python 3.4
 * [DeepMind Lab](https://github.com/deepmind/lab)
 * [Tensorflow 1.2](https://github.com/tensorflow/tensorflow/tree/r1.2)
+
 This is my configuration, other versions might work, too. If don't, let me know.
 
 ## Instructions for runing
