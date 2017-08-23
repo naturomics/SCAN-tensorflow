@@ -10,10 +10,11 @@ A Tensorflow implementation of DeepMind's Symbol-Concept Association Network ([S
 ## Prerequisites
 
 * Python 3.4
-* [DeepMind Lab](https://github.com/deepmind/lab)
+* DeepMind Lab
 * [Tensorflow 1.2](https://github.com/tensorflow/tensorflow/tree/r1.2)
 
 This is my configuration, other versions might work, too. If don't, let me know.
+It is worth mentioning that [the origin deepmind lab repo](https://github.com/deepmind/lab) hasn't been updated for months, and it doesn't support python3. On the other hand, I'm used to work on my Gentoo Linux with Python3. In order to make it work, I have forked this repo to [my github](https://github.com/naturomics/lab) and make it Gentoo and python3 supportable. See [here]{https://github.com/naturomics/lab} for details.
 
 ## Instructions for runing
 ```shell
