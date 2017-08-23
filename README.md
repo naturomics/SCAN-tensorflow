@@ -1,6 +1,8 @@
 # SCAN in Tensorflow
 A Tensorflow implementation of DeepMind's Symbol-Concept Association Network ([SCAN: Learning Abstract Hierarchical Compositional Visual Concepts](https://arxiv.org/abs/1707.03389)).
 
+SCAN is a framework for learning concepts paired with visual primitived. By teaching logical operators to SCAN, it even can learn to imagine new concepts from logical operators. See [the paper](https://arxiv.org/abs/1707.03389) and [DeepMind blog](https://deepmind.com/blog/imagine-creating-new-visual-concepts-recombining-familiar-ones/) for more details.
+
 <p align="center">
 	<img src="https://github.com/naturomics/SCAN-tensorflow/blob/master/assets/SCAN-model.png?raw=true" alt="SCAN model architecture"/>
 </p>
