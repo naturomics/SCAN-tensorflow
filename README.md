@@ -1,4 +1,6 @@
 # SCAN in Tensorflow
+
+[![Join the chat at https://gitter.im/SCAN-Tensorflow/Lobby](https://badges.gitter.im/SCAN-Tensorflow/Lobby.svg)](https://gitter.im/SCAN-Tensorflow/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 A Tensorflow implementation of DeepMind's Symbol-Concept Association Network ([SCAN: Learning Abstract Hierarchical Compositional Visual Concepts](https://arxiv.org/abs/1707.03389)).
 
 SCAN is a framework for learning concepts paired with visual primitived. By teaching logical operators to SCAN, it even can learn to imagine new concepts from logical operators. See [the paper](https://arxiv.org/abs/1707.03389) and [DeepMind blog](https://deepmind.com/blog/imagine-creating-new-visual-concepts-recombining-familiar-ones/) for more details.
