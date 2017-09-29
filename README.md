@@ -33,6 +33,7 @@ $ cd SCAN-tensorflow
 $ python main.py
 ```
 
+# Results
 
 # Contributing
 Contributions are always welcome! Please read [CONTRIBUTING](CONTRIBUTING.md) for details.
