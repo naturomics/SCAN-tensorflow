@@ -1,6 +1,7 @@
 import tensorflow as tf
 
-from VAE import Encoder, Decoder
+import VAE
+import MLP
 
 
 # TF 1.3 release the statistical distribution library tf.distributions,
@@ -16,10 +17,10 @@ except:
 class SCAN(object):
     def __init__(self, cfg):
         self.cfg = cfg
-        self.img_encoder = Encoder()
-        self.img_decoder = Decoder()
-        self.sym_encoder = Encoder()
-        self.sym_decoder = Decoder()
+        self.img_encoder = VAE.Encoder()
+        self.img_decoder = VAE.Decoder()
+        self.sym_encoder = MLP.Encoder()
+        self.sym_decoder = MLP.Decoder()
 
     def train(self):
         img, sym = self.read_data_sets()
