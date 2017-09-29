@@ -1,7 +1,7 @@
 # SCAN in Tensorflow
 
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg?style=plastic)](https://gitter.im/SCAN-Tensorflow/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![apache-license](https://img.shields.io/badge/license-Apache-blue.svg)](LICENSE)
+[![apache-license](https://img.shields.io/badge/license-Apache-blue.svg?style=plastic)](LICENSE)
 
 A Tensorflow implementation of DeepMind's Symbol-Concept Association Network ([SCAN: Learning Abstract Hierarchical Compositional Visual Concepts](https://arxiv.org/abs/1707.03389)).
 
