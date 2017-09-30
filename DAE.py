@@ -7,7 +7,8 @@ class Encoder(object):
 
     def __call__(self, input):
         if self.cfg.DAENoiseType == "gaussian":  # additive gaussian noise
-            input = input + self.cfg.scale * tf.random_normal()
+            noise = self.cfg.scale * tf.random_normal(shape=input.get_shape())
+            input = input + noise
         elif self.cfg.DAENoiseType == "mask":  # masking noise
             input = tf.nn.dropout(input, self.cfg.keep_prob)
         h1 = tf.contrib.layers.conv2d(input, num_outputs=32, kernel_size=4,
