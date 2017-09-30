@@ -2,12 +2,14 @@ import tensorflow as tf
 
 
 class Encoder(object):
-    def __init__(self, input, scale):
-        self.input = input
-        self.scale = scale
+    def __init__(self, cfg):
+        self.cfg = cfg
 
     def __call__(self, input):
-        input = input + self.scale * tf.random_normal()
+        if self.cfg.DAENoiseType == "gaussian":  # additive gaussian noise
+            input = input + self.cfg.scale * tf.random_normal()
+        elif self.cfg.DAENoiseType == "mask":  # masking noise
+            input = tf.nn.dropout(input, self.cfg.keep_prob)
         h1 = tf.contrib.layers.conv2d(input, num_outputs=32, kernel_size=4,
                                       strde=2, activation_fn=tf.nn.elu)
         h2 = tf.contrib.layers.conv2d(h1, num_outputs=32, kernel_size=4,
