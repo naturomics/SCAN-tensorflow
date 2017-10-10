@@ -1,7 +1,8 @@
 # SCAN in Tensorflow
 
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg?style=plastic)](https://gitter.im/SCAN-Tensorflow/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![apache-license](https://img.shields.io/badge/license-Apache-blue.svg?style=plastic)](LICENSE)
+[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=plastic)](CONTRIBUTING.md)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=plastic)](https://opensource.org/licenses/Apache-2.0)
 
 A Tensorflow implementation of DeepMind's Symbol-Concept Association Network ([SCAN: Learning Abstract Hierarchical Compositional Visual Concepts](https://arxiv.org/abs/1707.03389)).
 
@@ -34,9 +35,6 @@ $ python main.py
 ```
 
 # Results
-
-# Contributing
-Contributions are always welcome! Please read [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 # Author
 Naturomics Liao - [@naturomics](https://github.com/naturomics)
